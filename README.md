@@ -1,24 +1,11 @@
-# GitBrain App (`app.gitbrain.com`)
+# GitBrain App
 
-Cloudflare Workers + D1 app for:
+> **Status: placeholder.** No application code yet.
 
-- Signup / login
-- MCP agent-token mint & authorize
-- Dashboard (sessions / capsules)
-- Wiki-style memory viewer
+Public placeholder for the GitBrain app (`app.gitbrain.com`). This repository currently contains only this README and the license.
 
-**Public host:** `app.gitbrain.com`  
-**MCP door:** `https://mcp.gitbrain.com` (do not overload that Worker)
-
-Scaffold landing — cloud agent / implementers fill in Workers code.
-
-## Deploy notes (Platform Infra)
-
-- Suggested Worker name: `gitbrain-app-m0`
-- Attach custom domain `app.gitbrain.com`
-- D1 for users, sessions, token hashes
-- Secrets: session signing key, token pepper, MCP base URL
+Part of [GitBrain](https://gitbrain.com).
 
 ## License
 
-Apache-2.0
+Apache-2.0. See [LICENSE](LICENSE).

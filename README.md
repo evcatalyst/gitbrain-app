@@ -1,11 +1,17 @@
-# GitBrain App
+# GitBrain App (`app.gitbrain.com`)
 
-> **Status: placeholder.** No application code yet.
+Cloudflare Workers + D1 app for:
 
-Public placeholder for the GitBrain app (`app.gitbrain.com`). This repository currently contains only this README and the license.
+- Signup / login
+- MCP agent-token mint & authorize
+- Dashboard (sessions / capsules)
+- Wiki-style memory viewer
 
-Part of [GitBrain](https://gitbrain.com).
+**Public host:** `app.gitbrain.com`  
+**MCP door:** `https://mcp.gitbrain.com` (do not overload that Worker)
+
+> **Status: placeholder.** The app code isn't published here yet. See [gitbrain.com](https://gitbrain.com).
 
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE).
+Apache-2.0
